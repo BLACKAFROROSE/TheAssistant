@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "111426535865",
+    "firebase_url": "https://the-assistant-ff573.firebaseio.com",
+    "project_id": "the-assistant-ff573",
+    "storage_bucket": "the-assistant-ff573.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111426535865:android:2786bef21bab4f1e4d3668",
+        "android_client_info": {
+          "package_name": "com.mulengabwalyajeff.theassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "111426535865-a0si10v3ptgacn4m3ad7ljlvq9ko1ufj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtRqDZ9XYn2acoIqH-2V5gSpcGTEv5GzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "111426535865-a0si10v3ptgacn4m3ad7ljlvq9ko1ufj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111426535865:android:a317491281b7abf64d3668",
+        "android_client_info": {
+          "package_name": "com.mulengabwalyajeff.theassittantfirebasedatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "111426535865-riq9m3fhj6nn9rmro46rj082vqpombr2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mulengabwalyajeff.theassittantfirebasedatabase",
+            "certificate_hash": "272c780b2ba2e1a27542a84dd5de19c8409e3df4"
+          }
+        },
+        {
+          "client_id": "111426535865-a0si10v3ptgacn4m3ad7ljlvq9ko1ufj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtRqDZ9XYn2acoIqH-2V5gSpcGTEv5GzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "111426535865-a0si10v3ptgacn4m3ad7ljlvq9ko1ufj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

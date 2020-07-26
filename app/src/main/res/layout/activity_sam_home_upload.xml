@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/mono1"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="samsung HOME"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor= "@color/mono2ora"/>
+
+    <Button
+        android:id="@+id/samcharger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHARGR"
+        android:onClick="addsamchargre"
+        android:background="@drawable/loginbutton"
+        android:textColor="@color/mono3ora"
+        android:textSize="30sp"
+        android:layout_margin="10dp"/>
+
+
+
+    <Button
+        android:id="@+id/samheadsets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HEADSETS"
+        android:onClick="addsamheadsets"
+        android:background="@drawable/loginbutton"
+        android:textColor="@color/mono3ora"
+        android:textSize="30sp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/samlcd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LCD"
+        android:onClick="addsamlcd"
+        android:background="@drawable/loginbutton"
+        android:textColor="@color/mono3ora"
+        android:textSize="30sp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/samtopglass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TOPGLASS"
+        android:onClick="addsamtopglass"
+        android:background="@drawable/loginbutton"
+        android:textColor="@color/mono3ora"
+        android:textSize="30sp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/samcovers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COVERS"
+        android:onClick="addsamcovers"
+        android:background="@drawable/loginbutton"
+        android:textColor="@color/mono3ora"
+        android:textSize="30sp"
+        android:layout_margin="10dp"/>
+</LinearLayout>

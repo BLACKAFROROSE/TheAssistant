@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#510702</color>
+    <color name="colorPrimaryDark">#A32B2F</color>
+    <color name="colorAccent">#811564</color>
+    <color name="alltext">#FAF8FE</color>
+    <color name="alltitles">#EB3575</color>
+    <color name="additionalwords">#1A59B1</color>
+    <color name="mono6">#F14135</color>
+    <color name="mono5">#F2171E</color>
+    <color name="mono4">#BF1313</color>
+    <color name="mono3">#FAF8FE</color>
+    <color name="mono2">#770C0C</color>
+    <color name="mono1">#707070</color>
+    <color name="mono4ora">#17498F</color>
+    <color name="mono3ora">#FAF8FE</color>
+    <color name="mono2ora">#040507</color>
+    <color name="monoora1">#030D3A</color>
+</resources>

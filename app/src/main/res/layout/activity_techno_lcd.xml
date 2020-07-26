@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mono1"
+    tools:context=".uploadstock.samsung.sam_lcd"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="techno LCD"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor= "@color/mono2ora"/>
+    <EditText
+        android:id="@+id/technolcdname"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="Name"
+        android:inputType="text"
+        android:background="@drawable/edittextlook"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/technolcddescription"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="Description"
+        android:inputType="text"
+        android:background="@drawable/edittextlook"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/technolcdinfo"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="Infomation"
+        android:inputType="text"
+        android:background="@drawable/edittextlook"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/technolcdprice"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="Price"
+        android:inputType="text"
+        android:background="@drawable/edittextlook"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:textAlignment="center"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="saveNote"
+        android:text="Save"
+        android:background="@drawable/loginbutton"
+        android:textColor="@color/mono3ora"
+        android:textSize="30sp"/>
+
+</LinearLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mono1"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".displayItems"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+
+                android:textAllCaps="true"
+                android:textSize="30sp"
+                android:text="sumsung"
+                android:padding="20dp"
+                android:id="@+id/sumsung"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/alltext"
+                android:background="@drawable/loginbutton"
+                android:textAlignment="center"
+
+                android:layout_margin="10dp"
+                android:onClick="samdevdata"
+
+                >
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/techno"
+                android:layout_alignParentLeft="true"
+                android:textAllCaps="true"
+                android:textSize="30dp"
+                android:text="techno"
+                android:padding="20dp"
+                android:layout_below="@+id/sumsung"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/alltext"
+                android:background="@drawable/loginbutton"
+                android:textAlignment="center"
+                android:layout_margin="10dp"
+                android:onClick="uploadtechno">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/itel"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tecno"
+                android:layout_alignParentLeft="true"
+
+
+                android:padding="20dp"
+                android:text="itel"
+                android:textAllCaps="true"
+                android:textSize="30dp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/alltext"
+                android:background="@drawable/loginbutton"
+                android:textAlignment="center"
+                android:layout_margin="10dp">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:id="@+id/huawei"
+                android:fontFamily="sans-serif-black"
+                android:padding="20dp"
+                android:text="huawei"
+
+                android:textAllCaps="true"
+                android:textColor="@color/alltext"
+                android:background="@drawable/loginbutton"
+                android:textAlignment="center"
+                android:layout_margin="10dp"
+                android:textSize="30dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="apple"
+                android:id="@+id/iphone"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/huawei"
+                android:layout_margin="10dp"
+                android:padding="20dp"
+
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/alltext"
+                android:background="@drawable/loginbutton"
+
+
+                android:textSize="30dp">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="motorola"
+                android:layout_alignParentRight="true"
+                android:id="@+id/motorola"
+                android:layout_below="@+id/iphone"
+                android:fontFamily="sans-serif-black"
+                android:padding="20dp"
+
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/alltext"
+                android:background="@drawable/loginbutton"
+                android:layout_margin="10dp"
+                android:textSize="30dp">
+
+            </TextView>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

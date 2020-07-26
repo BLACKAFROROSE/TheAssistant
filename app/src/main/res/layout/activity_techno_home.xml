@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/mono1"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="techno home"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor= "@color/mono2ora"/>
+
+    <Button
+        android:id="@+id/technocharger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHARGR"
+        android:onClick="addtechnochargre"
+        android:background="@drawable/loginbutton"
+        android:textColor="@color/mono3ora"
+        android:textSize="30sp"
+        android:layout_margin="10dp"/>
+
+
+
+    <Button
+        android:id="@+id/technoheadsets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HEADSETS"
+        android:onClick="addtechnoheadsets"
+        android:background="@drawable/loginbutton"
+        android:textColor="@color/mono3ora"
+        android:textSize="30sp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/technolcd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LCD"
+        android:onClick="addtechnolcd"
+        android:background="@drawable/loginbutton"
+        android:textColor="@color/mono3ora"
+        android:textSize="30sp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/technotopglass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TOPGLASS"
+        android:onClick="addtechnotopglass"
+        android:background="@drawable/loginbutton"
+        android:textColor="@color/mono3ora"
+        android:textSize="30sp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/technocovers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COVERS"
+        android:onClick="addtechnocovers"
+        android:background="@drawable/loginbutton"
+        android:textColor="@color/mono3ora"
+        android:textSize="30sp"
+        android:layout_margin="10dp"/>
+</LinearLayout>
